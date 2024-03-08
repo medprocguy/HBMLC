@@ -20,10 +20,10 @@ In order to obtain the model predictions, execute the ``eval.py`` file by settin
 ## Calibration
 To calibrate the predictions, execute ```mlc_calibrate.py``` by updating the path to the predicted validation outputs, validation ground truths, test outputs and test ground truths files  in the following variables:
 
-```val_preds```   :   Defines the path to predicted validation data
-```test_preds``` : Defines the path to predicted test data
-```val_labels``` : Defines the to validation ground truth
-```test_labels``` : Defines the path to test ground truths
+- ```val_preds```   :   Defines the path to predicted validation data
+- ```test_preds``` : Defines the path to predicted test data
+- ```val_labels``` : Defines the to validation ground truth
+- ```test_labels``` : Defines the path to test ground truths
 
 ## Remarks
 Currently, we are releasing the code for one dataset (ChestMNIST). The full code will be released post acceptance. 
